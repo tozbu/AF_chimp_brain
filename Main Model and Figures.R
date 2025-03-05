@@ -6,7 +6,7 @@ library(rstudioapi)
 
 
 ###Open the data
-dw = read.csv(file ="./For github/Data/Data_tracto.csv", header= T)
+dw = read.csv(file =".Data_tracto.csv", header= T)
 
 
 
