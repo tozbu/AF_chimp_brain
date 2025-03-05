@@ -6,7 +6,7 @@ library(rstudioapi)
 
 
 ###Open the data
-dw = read.csv(file =".Data_tracto.csv", header= T)
+dw = read.csv(file ="Data_tracto.csv", header= T)
 
 
 
@@ -140,7 +140,7 @@ for(i in 1:8) (pred.data$l95ci[i] = quantile(pred[,i], prob =0.025))
 for(i in 1:8) (pred.data$h95ci[i] = quantile(pred[,i], prob =0.975))
 #
 
-## plot the data and the model log scale just for Chimpanzees (Figure XX) ####
+## plot the data and the model log scale just for Chimpanzees (Figure 2C) ####
 
 
 ### define position for STG and MTG in the plot
@@ -303,7 +303,7 @@ mtext('Waytotal (log scale)', side =2, line =4, cex =1.3)
 
 
 
-####### Plot STG MTG difference in both species (Figure XX)####
+####### Plot STG MTG difference in both species (Figure 2D)####
 
 
 #extract datasets from the conditinal effect fonction
